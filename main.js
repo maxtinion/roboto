@@ -22,7 +22,7 @@ client.on('guildMemberRemove', member => {
 });
 
 client.on('message', msg => {
-  var commands = fs.readdirSync("./galimax_commands/");
+  var commands = fs.readdirSync("./roboto_commands/");
      if (msg.content.startsWith(prefix)) {
          var command = msg.content.split(" ")[0].replace("^", "");
          if (commands.indexOf(command + ".js") > -1) {
