@@ -1,0 +1,26 @@
+{
+  "name": "roboto",
+  "version": "1.0.0",
+  "description": "a discord bot made in d.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "@ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxtinion/roboto.git"
+  },
+  "keywords": [
+    "roboto"
+  ],
+  "author": "maxtinion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxtinion/roboto/issues"
+  },
+  "homepage": "https://github.com/maxtinion/roboto#readme",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "superagent": "^3.3.2"
+  }
+}
