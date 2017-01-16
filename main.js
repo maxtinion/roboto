@@ -10,7 +10,11 @@ client.on('ready', () => {
   client.channels.get('261923806996594688').sendMessage(`I have started up again, I am in ${client.guilds.size} guilds, ${client.channels.size} channels, and I can see ${client.users.size} people`);
   client.user.setGame(`In development`);
 });
+<<<<<<< HEAD
 
+=======
+let prefix = 'x' //or any prefix
+>>>>>>> origin/master
 client.on('guildMemberAdd', member => {
     let guild = member.guild;
     guild.defaultChannel.sendMessage(`Welcome ${member.user.username}.`);
